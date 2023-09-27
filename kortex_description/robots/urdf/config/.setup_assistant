@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: kortex_description
+    relative_path: robots/urdf/gen3_robotiq_2f_85_tesseract.urdf
+    xacro_args: ""
+  SRDF:
+    relative_path: config/gen3_robotiq_2f_85_tesseract.srdf
+  CONFIG:
+    author_name: zing
+    author_email: zing@mail.com
+    generated_timestamp: 1695300879
