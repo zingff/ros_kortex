@@ -110,7 +110,7 @@
         <node name="rviz" pkg="rviz" type="rviz" output="log" args="-f base_link" if="$(arg start_rviz)"/>  -->
 
         <!-- Start RViz -->
-        <node name="rviz" pkg="rviz" type="rviz" output="log" args="-d $(find sla_feeding)/config/default.rviz" if="$(arg start_rviz)"/> 
+        <node name="rviz" pkg="rviz" type="rviz" output="log" args="-d $(find feeding_task)/config/default.rviz" if="$(arg start_rviz)"/> 
 
         <!-- Tests -->
         <!-- Initialization test and custom functional tests -->
